@@ -1,0 +1,10 @@
+dado = input('Insira algum dado: ')
+
+print('O tipo primitivo desse dado é', type(dado))
+print('O dado é alfabético? {}'.format(dado.isalpha()))
+print('O dado é numérico? {}'.format(dado.isnumeric()))
+print('O dado é alfanumérico? {}'.format(dado.isalnum()))
+print('O dado está somente com as letras maiúsculas? {}'.format(dado.isupper()))
+print('O dado está somente com as letras minúsculas? {}'.format(dado.islower()))
+print('O dado está capitalizado (Primeira letra em maiúscula)? {}'.format(dado.istitle()))
+print('O dado contém apenas espaços? {}'.format(dado.isspace()))
