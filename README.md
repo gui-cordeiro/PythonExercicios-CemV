@@ -1,5 +1,5 @@
 # Curso de Python do Curso em Vídeo - Exercícios 🤓🖖
-Repositório contendo os exercícios propostos no Curso de Python do @cursoemvideo e resolvidos por mim.
+Repositório contendo os exercícios propostos no Curso de Python do [@cursoemvideo](https://github.com/cursoemvideo)/[@gustavoguanabara](https://github.com/gustavoguanabara/) e resolvidos por mim.
 
 ## Playlists do Curso no YouTube
 Abaixo encontra-se os links das playlist referentes a cada um dos mundos do Curso de Python:
