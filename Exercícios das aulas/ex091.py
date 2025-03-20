@@ -4,6 +4,7 @@
 
 from random import randint
 from time import sleep
+from operator import itemgetter
 
 dadosJogador = {
     'jogador 1': randint(1,6),
@@ -12,9 +13,21 @@ dadosJogador = {
     'jogador 4': randint(1,6)
 }
 
-print('Valores sorteados:\n')
+ranking = list()
+
+print('-=' * 30)
+print('Valores sorteados:')
 for k,v in dadosJogador.items():
     print(f'\t - {k.capitalize()} tirou o valor {v} do dado!')
-    sleep(1)
+    sleep(0.5)
 
-# Continua...
+ranking = sorted(dadosJogador.items(), key=itemgetter(1), reverse=True)
+
+print('-=' * 30)
+
+print('Ranking dos jogadores:')
+for pos, valor in enumerate(ranking):
+    sleep(0.5)
+    print(f'\t {pos + 1}o. lugar: {valor[0]} - valor do dado {valor[1]}')
+
+print('-=' * 30)
